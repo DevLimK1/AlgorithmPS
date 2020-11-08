@@ -26,7 +26,7 @@ public class 소수찾기_에라토스테네스의체_ver {
         boolean[] result = new boolean[maxNum + 1];
         for (int i = 2; i < Math.sqrt(maxNum); i++) {
             if (!result[i]) {
-                for (int j = i * 2; j <= maxNum; j += i) {
+                for (int j = i * i; j <= maxNum; j += i) {
                     result[j] = true;
                 }
             }

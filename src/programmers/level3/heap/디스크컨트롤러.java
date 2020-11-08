@@ -23,7 +23,7 @@ class Job implements Comparable<Job> {
         } else return 1;
     }
 }
-
+//sol2보다 속도가 빠름
 class 디스크컨트롤러 {
     public int solution(int[][] jobs) {
         PriorityQueue<Job> pq = new PriorityQueue<>();

@@ -2,6 +2,7 @@ package programmers.level2.greedy;
 
 public class 조이스틱 {
     public int solution(String name) {
+
         // 1. 위, 아래 최소 이동
         int ans = 0;
         for(int i = 0 ; i < name.length() ; i++) {

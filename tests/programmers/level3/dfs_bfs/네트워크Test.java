@@ -10,9 +10,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class 네트워크Test {
     @Test
     public void 정답(){
-        네트워크 m=new 네트워크();
-//        assertThat(m.solution(3, new int[][]{{1, 1, 0}, {1, 1, 0}, {0, 0, 1}}), is(2));
-        assertThat(m.solution(3, new int[][]{{1, 1, 0}, {1, 1, 1}, {0, 1, 1}}), is(1));
+        네트워크_mine m=new 네트워크_mine();
+        assertThat(m.solution(3, new int[][]{{1, 1, 0}, {1, 1, 0}, {0, 0, 1}}), is(2));
+//        assertThat(m.solution(3, new int[][]{{1, 1, 0}, {1, 1, 1}, {0, 1, 1}}), is(1));
     }
 
     @Test
